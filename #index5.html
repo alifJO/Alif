@@ -1,0 +1,109 @@
+<style>
+  @charset "UTF-8";
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+.wrapper {
+  display: inline-block;
+  width: 1170px;
+  margin: auto;
+
+}
+
+body {
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(yoyoyo.jpg);
+  height: 200vh;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.nav-area {
+  float: right;
+  list-style: none;
+  padding-top: 10%;
+}
+
+.nav-area li{
+   display: inline-block;
+
+}
+.nav-area li a {
+  color:#fff;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-size: 14px;
+}
+.nav-area li a:hover {
+  background: #fff;
+  color: #333;
+}
+.logo img {
+  width: 200px;
+  float: left;
+  padding-left: 1%;
+  padding-top: 2%;
+  padding-right: 6%;
+  /*filter: invert(1);;*/
+
+}
+.welcome-text {
+  position: absolute;
+  margin: 20% 30%;
+  text-align: center;
+
+}
+.welcome-text h1{
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 60px;
+}
+.welcome-text a{
+  border: 1px solid #fff;
+  padding: 10px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 20px;
+  display: inline-block;
+  color: #fff;
+}
+.welcome-text a:hover{
+  background: #fff;
+  color: #333;
+}
+.welcome-text p{
+  color: #fff;
+}
+</style>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="logo">
+        <img src="cakevivo.png" alt="a cake"> 
+      </div>
+      <ul class="nav-area">
+       <li><a href="#costumers-info"> INFO</a></li>
+       <li><a href="#cakes-option"> OPTIONS</a></li>
+       <li><a href="#video"> MYVIDEO</a></li>
+       <li><a href="pricing"> PRICING</a></li>
+      </ul>
+    </div>
+    <div class="welcome-text">
+      <h1>Alif Bakeries</h1>
+      <p>Welcome to my bakery. Here i am selling lots of best-selling cakes where you can choose from</p>
+      <a href="https://www.youtube.com/watch?v=-xlmBoQ4paI">Youtube Channel</a>
+    </div>
+</body>
+</html>
